@@ -1,0 +1,155 @@
+/Users/abhishekkashyap/PycharmProjects/SnakeLadderGame/venv/bin/python /Users/abhishekkashyap/PycharmProjects/SnakeLadderGame/main.py
+Enter the name of the configuration file: 
+Invalid input...!!! The string must be non-empty
+Enter the name of the configuration file: con.hd
+No such file con.hd exists.
+Enter the name of the configuration file: config.json
+Enter the name for player 1: 
+Invalid input...!!! The string must be non-empty
+Enter the name for player 1: Abhishek
+Enter the name for player 2: Test
+Current Games status: 
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+                               #  157 |  158 |  159 |  160 |  161 |  162 |  163 |  164 |  165 |  166 |  167 |  168 |  169 #
+                               #  156 |  155 |  154 |  153 |  152 |  151 |  150 |  149 |  148 |  147 |  146 |  145 |  144 #
+                               #  131 |  132 |  133 |  134 |  135 |  136 |  137 |  138 |  139 |  140 |  141 |  142 |  143 #
+                               #  130 |  129 |  128 |  127 |  126 |  125 |  124 |  123 |  122 |  121 |  120 |  119 | S 1H #
+Ladders         Snakes         #  105 |  106 |  107 |  108 |  109 |  110 |  111 |  112 |  113 |  114 |  115 |  116 |  117 #
+2 -> 23         118 -> 4       #  104 |  103 |  102 |  101 |  100 |   99 |   98 |   97 | L 8E |   95 |   94 | L 3E | S 2H #
+8 -> 12         92 -> 76       #   79 | S 3T | L 5E |   82 | S 3H |   84 |   85 |   86 |   87 |   88 | L 7E |   90 |   91 #
+17 -> 93        83 -> 80       #   78 |   77 | S 2T |   75 |   74 |   73 |   72 |   71 | L 7S |   69 | L 6E | S 4H |   66 #
+32 -> 51        67 -> 50       #   53 |   54 |   55 |   56 |   57 |   58 | S 5H |   60 |   61 | L 6S |   63 |   64 | L 8S #
+39 -> 81        59 -> 37       #   52 | L 4E | S 4T |   49 |   48 |   47 |   46 |   45 |   44 |   43 |   42 | S 6H |   40 #
+62 -> 68        41 -> 20       #   27 |   28 |   29 |   30 | S 7H | L 4S |   33 |   34 |   35 |   36 | S 5T |   38 | L 5S #     Player symbols: 
+70 -> 89        31 -> 14       #   26 |   25 |   24 | L 1E |   22 |   21 | S 6T |   19 |   18 | L 3S |   16 |   15 | S 7T #     TE♥ -> Test's symbol.           
+65 -> 96                       #AB★TE♥| L 1S |    3 | S 1T |    5 |    6 |    7 | L 2S |    9 |   10 |   11 | L 2E |   13 #     AB★ -> Abhishek's symbol.       
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+Enter "q" to quit or any other key for rolling the dice Abhishek: 
+You got a 3
+Abhishek moved to position 4.
+Enter "q" to quit or any other key for rolling the dice Test: 
+You got a 6
+Test moved to position 7.
+Yay... Free turn on getting 6.
+Enter "q" to quit or any other key for rolling the dice Test: 
+You got a 1
+Yay... You got a ladder. Moving you to position 12
+Current Games status: 
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+                               #  157 |  158 |  159 |  160 |  161 |  162 |  163 |  164 |  165 |  166 |  167 |  168 |  169 #
+                               #  156 |  155 |  154 |  153 |  152 |  151 |  150 |  149 |  148 |  147 |  146 |  145 |  144 #
+                               #  131 |  132 |  133 |  134 |  135 |  136 |  137 |  138 |  139 |  140 |  141 |  142 |  143 #
+                               #  130 |  129 |  128 |  127 |  126 |  125 |  124 |  123 |  122 |  121 |  120 |  119 | S 1H #
+Ladders         Snakes         #  105 |  106 |  107 |  108 |  109 |  110 |  111 |  112 |  113 |  114 |  115 |  116 |  117 #
+2 -> 23         118 -> 4       #  104 |  103 |  102 |  101 |  100 |   99 |   98 |   97 | L 8E |   95 |   94 | L 3E | S 2H #
+8 -> 12         92 -> 76       #   79 | S 3T | L 5E |   82 | S 3H |   84 |   85 |   86 |   87 |   88 | L 7E |   90 |   91 #
+17 -> 93        83 -> 80       #   78 |   77 | S 2T |   75 |   74 |   73 |   72 |   71 | L 7S |   69 | L 6E | S 4H |   66 #
+32 -> 51        67 -> 50       #   53 |   54 |   55 |   56 |   57 |   58 | S 5H |   60 |   61 | L 6S |   63 |   64 | L 8S #
+39 -> 81        59 -> 37       #   52 | L 4E | S 4T |   49 |   48 |   47 |   46 |   45 |   44 |   43 |   42 | S 6H |   40 #
+62 -> 68        41 -> 20       #   27 |   28 |   29 |   30 | S 7H | L 4S |   33 |   34 |   35 |   36 | S 5T |   38 | L 5S #     Player symbols: 
+70 -> 89        31 -> 14       #   26 |   25 |   24 | L 1E |   22 |   21 | S 6T |   19 |   18 | L 3S |   16 |   15 | S 7T #     TE♥ -> Test's symbol.           
+65 -> 96                       #    1 | L 1S |    3 | AB★  |    5 |    6 |    7 | L 2S |    9 |   10 |   11 | TE♥  |   13 #     AB★ -> Abhishek's symbol.       
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+Enter "q" to quit or any other key for rolling the dice Abhishek: 
+You got a 2
+Abhishek moved to position 6.
+Enter "q" to quit or any other key for rolling the dice Test: 
+You got a 3
+Test moved to position 15.
+Current Games status: 
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+                               #  157 |  158 |  159 |  160 |  161 |  162 |  163 |  164 |  165 |  166 |  167 |  168 |  169 #
+                               #  156 |  155 |  154 |  153 |  152 |  151 |  150 |  149 |  148 |  147 |  146 |  145 |  144 #
+                               #  131 |  132 |  133 |  134 |  135 |  136 |  137 |  138 |  139 |  140 |  141 |  142 |  143 #
+                               #  130 |  129 |  128 |  127 |  126 |  125 |  124 |  123 |  122 |  121 |  120 |  119 | S 1H #
+Ladders         Snakes         #  105 |  106 |  107 |  108 |  109 |  110 |  111 |  112 |  113 |  114 |  115 |  116 |  117 #
+2 -> 23         118 -> 4       #  104 |  103 |  102 |  101 |  100 |   99 |   98 |   97 | L 8E |   95 |   94 | L 3E | S 2H #
+8 -> 12         92 -> 76       #   79 | S 3T | L 5E |   82 | S 3H |   84 |   85 |   86 |   87 |   88 | L 7E |   90 |   91 #
+17 -> 93        83 -> 80       #   78 |   77 | S 2T |   75 |   74 |   73 |   72 |   71 | L 7S |   69 | L 6E | S 4H |   66 #
+32 -> 51        67 -> 50       #   53 |   54 |   55 |   56 |   57 |   58 | S 5H |   60 |   61 | L 6S |   63 |   64 | L 8S #
+39 -> 81        59 -> 37       #   52 | L 4E | S 4T |   49 |   48 |   47 |   46 |   45 |   44 |   43 |   42 | S 6H |   40 #
+62 -> 68        41 -> 20       #   27 |   28 |   29 |   30 | S 7H | L 4S |   33 |   34 |   35 |   36 | S 5T |   38 | L 5S #     Player symbols: 
+70 -> 89        31 -> 14       #   26 |   25 |   24 | L 1E |   22 |   21 | S 6T |   19 |   18 | L 3S |   16 | TE♥  | S 7T #     TE♥ -> Test's symbol.           
+65 -> 96                       #    1 | L 1S |    3 | S 1T |    5 | AB★  |    7 | L 2S |    9 |   10 |   11 | L 2E |   13 #     AB★ -> Abhishek's symbol.       
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+Enter "q" to quit or any other key for rolling the dice Abhishek: 
+You got a 1
+Abhishek moved to position 7.
+Enter "q" to quit or any other key for rolling the dice Test: 
+You got a 6
+Test moved to position 21.
+Yay... Free turn on getting 6.
+Enter "q" to quit or any other key for rolling the dice Test: 
+You got a 6
+Test moved to position 27.
+Yay... Free turn on getting 6.
+Enter "q" to quit or any other key for rolling the dice Test: 
+You got a 3
+Test moved to position 30.
+Current Games status: 
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+                               #  157 |  158 |  159 |  160 |  161 |  162 |  163 |  164 |  165 |  166 |  167 |  168 |  169 #
+                               #  156 |  155 |  154 |  153 |  152 |  151 |  150 |  149 |  148 |  147 |  146 |  145 |  144 #
+                               #  131 |  132 |  133 |  134 |  135 |  136 |  137 |  138 |  139 |  140 |  141 |  142 |  143 #
+                               #  130 |  129 |  128 |  127 |  126 |  125 |  124 |  123 |  122 |  121 |  120 |  119 | S 1H #
+Ladders         Snakes         #  105 |  106 |  107 |  108 |  109 |  110 |  111 |  112 |  113 |  114 |  115 |  116 |  117 #
+2 -> 23         118 -> 4       #  104 |  103 |  102 |  101 |  100 |   99 |   98 |   97 | L 8E |   95 |   94 | L 3E | S 2H #
+8 -> 12         92 -> 76       #   79 | S 3T | L 5E |   82 | S 3H |   84 |   85 |   86 |   87 |   88 | L 7E |   90 |   91 #
+17 -> 93        83 -> 80       #   78 |   77 | S 2T |   75 |   74 |   73 |   72 |   71 | L 7S |   69 | L 6E | S 4H |   66 #
+32 -> 51        67 -> 50       #   53 |   54 |   55 |   56 |   57 |   58 | S 5H |   60 |   61 | L 6S |   63 |   64 | L 8S #
+39 -> 81        59 -> 37       #   52 | L 4E | S 4T |   49 |   48 |   47 |   46 |   45 |   44 |   43 |   42 | S 6H |   40 #
+62 -> 68        41 -> 20       #   27 |   28 |   29 | TE♥  | S 7H | L 4S |   33 |   34 |   35 |   36 | S 5T |   38 | L 5S #     Player symbols: 
+70 -> 89        31 -> 14       #   26 |   25 |   24 | L 1E |   22 |   21 | S 6T |   19 |   18 | L 3S |   16 |   15 | S 7T #     TE♥ -> Test's symbol.           
+65 -> 96                       #    1 | L 1S |    3 | S 1T |    5 |    6 | AB★  | L 2S |    9 |   10 |   11 | L 2E |   13 #     AB★ -> Abhishek's symbol.       
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+Enter "q" to quit or any other key for rolling the dice Abhishek: f
+You got a 2
+Abhishek moved to position 9.
+Enter "q" to quit or any other key for rolling the dice Test: s
+You got a 3
+Test moved to position 33.
+Current Games status: 
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+                               #  157 |  158 |  159 |  160 |  161 |  162 |  163 |  164 |  165 |  166 |  167 |  168 |  169 #
+                               #  156 |  155 |  154 |  153 |  152 |  151 |  150 |  149 |  148 |  147 |  146 |  145 |  144 #
+                               #  131 |  132 |  133 |  134 |  135 |  136 |  137 |  138 |  139 |  140 |  141 |  142 |  143 #
+                               #  130 |  129 |  128 |  127 |  126 |  125 |  124 |  123 |  122 |  121 |  120 |  119 | S 1H #
+Ladders         Snakes         #  105 |  106 |  107 |  108 |  109 |  110 |  111 |  112 |  113 |  114 |  115 |  116 |  117 #
+2 -> 23         118 -> 4       #  104 |  103 |  102 |  101 |  100 |   99 |   98 |   97 | L 8E |   95 |   94 | L 3E | S 2H #
+8 -> 12         92 -> 76       #   79 | S 3T | L 5E |   82 | S 3H |   84 |   85 |   86 |   87 |   88 | L 7E |   90 |   91 #
+17 -> 93        83 -> 80       #   78 |   77 | S 2T |   75 |   74 |   73 |   72 |   71 | L 7S |   69 | L 6E | S 4H |   66 #
+32 -> 51        67 -> 50       #   53 |   54 |   55 |   56 |   57 |   58 | S 5H |   60 |   61 | L 6S |   63 |   64 | L 8S #
+39 -> 81        59 -> 37       #   52 | L 4E | S 4T |   49 |   48 |   47 |   46 |   45 |   44 |   43 |   42 | S 6H |   40 #
+62 -> 68        41 -> 20       #   27 |   28 |   29 |   30 | S 7H | L 4S | TE♥  |   34 |   35 |   36 | S 5T |   38 | L 5S #     Player symbols: 
+70 -> 89        31 -> 14       #   26 |   25 |   24 | L 1E |   22 |   21 | S 6T |   19 |   18 | L 3S |   16 |   15 | S 7T #     TE♥ -> Test's symbol.           
+65 -> 96                       #    1 | L 1S |    3 | S 1T |    5 |    6 |    7 | L 2S | AB★  |   10 |   11 | L 2E |   13 #     AB★ -> Abhishek's symbol.       
+                               #------#------#------#------#------#------#------#------#------#------#------#------#------#
+Enter "q" to quit or any other key for rolling the dice Abhishek: g
+You got a 3
+Abhishek moved to position 12.
+Enter "q" to quit or any other key for rolling the dice Test: q
+Test decided to quit. Terminating game...!!!
+
+
+Moves, Stats and Position dataframes saved to 'moves.json', 'stats.json' and 'positions.json' respectively.
+Data frame loaded from 'moves.json' file
+    Abhishek  Test
+1         1     1
+2         2     0
+3         2     3
+5         0     0
+6         0     3
+Data frame loaded from 'stats.json' file
+          Abhishek  Test
+snakes          0     0
+ladders         0     1
+Data frame loaded from 'positions.json' file
+    Abhishek  Test
+1         0     0
+2         4     7
+3         6     8
+4         7    15
+5         9    21
+6        12    27
+7        12    30
+8        12    33

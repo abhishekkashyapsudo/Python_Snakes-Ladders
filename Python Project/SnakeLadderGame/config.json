@@ -1,0 +1,70 @@
+{
+  "board": {
+    "side": 10
+  },
+  "snakes": [
+    {
+      "head": 118,
+      "tail": 4
+    },
+    {
+      "head": 92,
+      "tail": 76
+    },
+    {
+      "head": 83,
+      "tail": 80
+    },
+    {
+      "head": 67,
+      "tail": 50
+    },
+    {
+      "head": 59,
+      "tail": 37
+    },
+    {
+      "head": 41,
+      "tail": 20
+    },
+    {
+      "head": 31,
+      "tail": 14
+    }
+  ],
+  "ladders": [
+    {
+      "start": 2,
+      "end": 23
+    },
+    {
+      "start": 8,
+      "end": 12
+    },
+    {
+      "start": 17,
+      "end": 93
+    },
+    {
+      "start": 32,
+      "end": 51
+    },
+    {
+      "start": 39,
+      "end": 81
+    },
+    {
+      "start": 62,
+      "end": 68
+    },
+    {
+      "start": 70,
+      "end": 89
+    },
+    {
+      "start": 65,
+      "end": 96
+    }
+  ],
+  "dice": [1,2,3,5,6]
+}
